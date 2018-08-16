@@ -37,4 +37,16 @@ Extra Space O(n) required
 Thus, if you feel like sorting max of 10^6 elements
 You cannot do that using Merge Sort
 
---Quick Sort--
+--Basic Quick Sort--
+Best Case = O(nlogn)
+Worst Case = O(n^2)
+Follows Divide and Conquer Approach
+Worst case is when it's either sorted in ascending and descending order
+Doesn't use extra memory
+
+--Randomized Quick Sort--
+Best Case = O(nlogn)
+Worst Case = O(n^2)
+Follows Divide and Conquer approach 
+instead of choosing the pivot as the first or the last element here we randomly choose the pivot index
+which enhances our chances of decreasing the worst case scenario to occur
